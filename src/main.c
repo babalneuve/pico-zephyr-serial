@@ -1,3 +1,4 @@
+#include <zephyr/kernel.h>
 #include <zephyr/sys/printk.h>
 #include <zephyr/usb/usb_device.h>
 #include <zephyr/drivers/uart.h>
@@ -60,7 +61,6 @@ int main(void)
 		printk("Give me an instruction !\n");
 
 		char *s = console_getline();
-		retour:
 
 		if (strcmp(s, "on") == 0 || strcmp(s, "ON") == 0) {
 			gpio_pin_set_dt(&led, 1);
@@ -68,28 +68,28 @@ int main(void)
 		} else if (strcmp(s, "off") == 0 || strcmp(s, "OFF") == 0) {
 			gpio_pin_set_dt(&led, 0);
 			printk("LED OFF !\n");
-		} else if (strcmp(s, "blink") == 0 || strcmp(s, "blink2") == 0) {
+		} else if (strcmp(s, "blink") == 0) {
 			printk("LED toggle ! Write \"stop\" if you want to stop blink\n");
 
-			if(!(strcmp(s, "blink2") == 0)){
+			if(thread_blink == NULL){
 				thread_blink = k_thread_create(&blink_thread_data, blink_thread_stack, K_THREAD_STACK_SIZEOF(blink_thread_stack),
 						blink_thread, NULL, NULL, NULL, K_PRIO_COOP(1), 0, K_NO_WAIT);
 			}
 
+			retour:
 			s = console_getline();
 
 			if(strcmp(s, "stop") == 0){
 				k_thread_abort(thread_blink);
 				gpio_pin_set_dt(&led, 0);
+				thread_blink = NULL;
 			}else{
 				printk("Wrong instruction\n");
-				s = "blink2";
 				goto retour;
 			}
 		} else {
 			printk("Instruction not supported !\n");
 		}
-		printk("-------------------------------------------\n");
 	}
 
 	return 0;

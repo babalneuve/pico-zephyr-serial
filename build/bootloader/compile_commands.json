@@ -1,7 +1,0 @@
-[
-{
-  "directory": "C:/Users/EXT_BASVER/zephyrproject/pico-zephyr-serial/build/bootloader",
-  "command": "C:\\ncs\\toolchains\\cf2149caf2\\opt\\zephyr-sdk\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -DCONFIG_ARM=1 -IC:/Users/EXT_BASVER/zephyrproject/zephyr/modules/hal_rpi_pico/bootloader/.. -IC:/Users/EXT_BASVER/zephyrproject/modules/hal/rpi_pico/src/rp2_common/boot_stage2/asminclude -IC:/Users/EXT_BASVER/zephyrproject/modules/hal/rpi_pico/src/rp2_common/pico_platform/include -IC:/Users/EXT_BASVER/zephyrproject/modules/hal/rpi_pico/src/rp2040/hardware_regs/include -IC:/Users/EXT_BASVER/zephyrproject/modules/hal/rpi_pico/src/common/pico_base/include -IC:/Users/EXT_BASVER/zephyrproject/zephyr/include -o CMakeFiles\\boot_stage2.dir\\C_\\Users\\EXT_BASVER\\zephyrproject\\modules\\hal\\rpi_pico\\src\\rp2_common\\boot_stage2\\boot2_w25q080.S.obj -c C:\\Users\\EXT_BASVER\\zephyrproject\\modules\\hal\\rpi_pico\\src\\rp2_common\\boot_stage2\\boot2_w25q080.S",
-  "file": "C:\\Users\\EXT_BASVER\\zephyrproject\\modules\\hal\\rpi_pico\\src\\rp2_common\\boot_stage2\\boot2_w25q080.S"
-}
-]
