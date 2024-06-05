@@ -1,8 +1,5 @@
-#include <zephyr/kernel.h>
 #include <zephyr/sys/printk.h>
-#include <zephyr/sys/util.h>
 #include <zephyr/usb/usb_device.h>
-#include <zephyr/usb/usbd.h>
 #include <zephyr/drivers/uart.h>
 #include <zephyr/drivers/gpio.h>
 #include <zephyr/console/console.h>
