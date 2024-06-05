@@ -542,7 +542,7 @@ pico_spi: &spi0 {};
  };
 };
 # 0 "<command-line>" 2
-# 1 "C:/Users/EXT_BASVER/zephyrproject/pico-zephyr-serial/app.overlay" 1
+# 1 "c:/Users/EXT_BASVER/zephyrproject/pico-zephyr-serial/app.overlay" 1
 / {
     chosen {
         zephyr,console = &cdc_acm_uart0;

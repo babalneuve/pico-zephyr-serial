@@ -137,3 +137,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/EXT_BASVER/zephyrproject/pico-zephyr-serial/build/zephyr/subsys/usb/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/EXT_BASVER/zephyrproject/pico-zephyr-serial/build/zephyr/subsys/console/cmake_install.cmake")
+endif()
+

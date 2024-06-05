@@ -130,6 +130,8 @@ C:/Users/EXT_BASVER/zephyrproject/pico-zephyr-serial/build/zephyr/subsys/usb/dev
 C:/Users/EXT_BASVER/zephyrproject/pico-zephyr-serial/build/zephyr/subsys/usb/device/CMakeFiles/rebuild_cache.dir
 C:/Users/EXT_BASVER/zephyrproject/pico-zephyr-serial/build/zephyr/subsys/usb/device/class/CMakeFiles/edit_cache.dir
 C:/Users/EXT_BASVER/zephyrproject/pico-zephyr-serial/build/zephyr/subsys/usb/device/class/CMakeFiles/rebuild_cache.dir
+C:/Users/EXT_BASVER/zephyrproject/pico-zephyr-serial/build/zephyr/subsys/console/CMakeFiles/edit_cache.dir
+C:/Users/EXT_BASVER/zephyrproject/pico-zephyr-serial/build/zephyr/subsys/console/CMakeFiles/rebuild_cache.dir
 C:/Users/EXT_BASVER/zephyrproject/pico-zephyr-serial/build/zephyr/drivers/CMakeFiles/edit_cache.dir
 C:/Users/EXT_BASVER/zephyrproject/pico-zephyr-serial/build/zephyr/drivers/CMakeFiles/rebuild_cache.dir
 C:/Users/EXT_BASVER/zephyrproject/pico-zephyr-serial/build/zephyr/drivers/disk/CMakeFiles/edit_cache.dir

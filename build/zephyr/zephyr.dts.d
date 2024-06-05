@@ -14,4 +14,4 @@ empty_file.o: C:/Users/EXT_BASVER/zephyrproject/zephyr/misc/empty_file.c \
  C:/Users/EXT_BASVER/zephyrproject/zephyr/boards/arm/rpi_pico/rpi_pico-pinctrl.dtsi \
  C:/Users/EXT_BASVER/zephyrproject/zephyr/include/zephyr/dt-bindings/pinctrl/rpi-pico-rp2040-pinctrl.h \
  C:/Users/EXT_BASVER/zephyrproject/zephyr/include/zephyr/dt-bindings/pwm/pwm.h \
- C:/Users/EXT_BASVER/zephyrproject/pico-zephyr-serial/app.overlay
+ c:/Users/EXT_BASVER/zephyrproject/pico-zephyr-serial/app.overlay
