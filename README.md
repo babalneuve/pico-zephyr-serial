@@ -3,7 +3,7 @@
 Example project for a simple USB Serial using the Raspberry Pi Pico, using Zephyr RTOS.
 There are a number of USB Serial examples for different Zephyr supported devices but few that are up-to-date with the latest version of Zephyr (3.3.99 at the time of writing).
 
-This is a simple demo for how get a Serial Console from the RPi Pico over USB CDC ACM.
+This is a simple demo for how get a Serial Console from the RPi Pico over USB CDC ACM and use it to control the on-board LED.
 
 ## Explanation
 
